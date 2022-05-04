@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 redo-ifchange Cargo src/src tests/tests examples/examples benches/benches
-git push
+git push --set-upstream origin main
 git subrepo push rtm-attributes
 git subrepo push rtm-cli
 git subrepo push rtm-csv
