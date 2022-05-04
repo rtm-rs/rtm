@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-tests.git
 	branch = main
-	commit = 506a8dee83e8515bba72cd884c9ee3e19b6196bd
-	parent = 6a4fc512f3b4c8b2b069b70396efe0d2e4e9ab81
+	commit = 4b9841addb79831bd83f19f0d69acd6bd722312d
+	parent = 60d7ee19da787593da75d1af1613f00016e7c0dd
 	method = merge
 	cmdver = 0.4.3
