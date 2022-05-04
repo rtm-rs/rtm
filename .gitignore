@@ -18,6 +18,7 @@ Cargo.lock
 **/target
 #Cargo.lock
 .redo
+# redo status files
 all
 benches/benches
 examples/examples
