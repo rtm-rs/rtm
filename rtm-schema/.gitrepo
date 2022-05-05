@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-schema.git
 	branch = main
-	commit = 561bf4bb87480f565b0606b634eed3d4f939a32a
+	commit = e9fa91578e68bbfc5d5c4be8a29d2e3d581426a8
 	parent = 1b2708e19d90fe27c3c36ed2f829dbd8653444cf
 	method = merge
 	cmdver = 0.4.3
