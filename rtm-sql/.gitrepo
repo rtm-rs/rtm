@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-sql.git
 	branch = main
-	commit = 1536385782e8244a238c9773e9c236a6789accc3
+	commit = 524e01037f64333f7e43b3b7a88a05479ff46380
 	parent = b6168838f97d17cd623a38b42fe844ab72b0d714
 	method = merge
 	cmdver = 0.4.3
