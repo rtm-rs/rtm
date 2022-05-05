@@ -2,7 +2,7 @@
 set -e
 
 SELF=$(basename "${0##*/}" .do)
-find . -type f -name '*.do' -print0 | \
+find . -maxdepth 2 -type f -name '*.do' -print0 | \
     xargs -0 echo | \
     sed -e 's/\.do//g' -e "s/\.\/$SELF//g" | \
     xargs redo-ifchange
