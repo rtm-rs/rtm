@@ -20,7 +20,4 @@ Cargo.lock
 .redo
 # redo status files
 all
-benches/benches
-examples/examples
-src/src
-tests/tests
+status
