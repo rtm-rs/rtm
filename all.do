@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-redo-ifchange Cargo src/src tests/tests examples/examples benches/benches
+SELF=$(basename ${0##*/} .do)
+find . -type f -name '*.do' -print0 | \
+    xargs -0 echo | \
+    sed -e 's/\.do//g' -e "s/\.\/$SELF//g" | \
+    xargs redo-ifchange
 git push --set-upstream origin main
 git subrepo push rtm-attributes
 git subrepo push rtm-cli
