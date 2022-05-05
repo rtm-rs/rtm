@@ -7,6 +7,6 @@
 	remote = git@github.com:rtm-rs/rtm-yaml.git
 	branch = main
 	commit = 369fc5ba4bad7211d684bd103ce1881e5f945042
-	parent = d3656c1d5e940fc22f123b1afa8fd6d3ad90aa69
+	parent = cbceaf9cfbc7d6ce8f487c8050808ad9cd7ade89
 	method = merge
 	cmdver = 0.4.3
