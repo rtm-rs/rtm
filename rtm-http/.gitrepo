@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:rtm-rs/rtm-http.git
+	branch = main
+	commit = 8b0580e03aafc1a3a635da2b33d6e9d36be91f46
+	parent = 27bfc80a065e22ac084de30039f58f22dbcb1eb7
+	method = merge
+	cmdver = 0.4.3
