@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-json.git
 	branch = main
-	commit = 2df3e42dea447828fe28d1bbc869f272a7939fa6
-	parent = 0eafe65ef20e13521cad33c6df8d48d0af2ce490
+	commit = ef41e84f551bc27237174deceba0ba41271b7354
+	parent = 4e959129d580aaece408e11b010fdc1a98933098
 	method = merge
 	cmdver = 0.4.3
