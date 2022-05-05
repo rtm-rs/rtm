@@ -5,8 +5,6 @@ readonly SUBREPO=rtm-yaml
 
 redo-ifchange tests/status
 
-cat tests/status >"${3}"
-
 find . -type f -name '*.rs' -print0 | xargs --null redo-ifchange
 
 pushd ./..
@@ -18,4 +16,4 @@ popd
 
 # Even if a source file has changed, a redo script that monitors this,
 # will consider it changed only if there hs been a change across test results.
-cat "${3}" | redo-stamp
+cat tests/status | redo-stamp
