@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:rtm-rs/rtm-nats.git
+	branch = main
+	commit = a3f7a439f8f30a864c6a1c278ae7d1f6f245a43a
+	parent = 299ce73b74967fbdaa2bf7bb4f61f137aa039a2f
+	method = merge
+	cmdver = 0.4.3
