@@ -1,8 +1,8 @@
 #[derive(rtm::Command)]
 struct AddPost {
-  author: String,
-  title: String,
-  content: String
+    author: String,
+    title: String,
+    content: String,
 }
 
 // Implements:
@@ -13,9 +13,9 @@ AddPost::validates_presence_of!(fields = []);
 
 #[derive(rtm::Command)]
 struct PublishPost {
-    publication_date: DateTime
+    publication_date: DateTime,
 }
 
 impl rtm::Command for PublishPost {}
 
-PublishPost::validates_presence_of!(field=publication_date);
+PublishPost::validates_presence_of!(field = publication_date);
