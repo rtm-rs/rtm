@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-macros.git
 	branch = main
-	commit = 3045156f8c0ee0b587602845cbb73c543a131468
-	parent = d7b8cedda1324519470c5410f4e3c00deb17f889
+	commit = 64d2dcee17db806573237e9a9239d24c4f2dae74
+	parent = 486e1f3ed47b2b0a7096ce696a157ca1d9257d13
 	method = merge
 	cmdver = 0.4.3
