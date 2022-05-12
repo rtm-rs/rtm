@@ -14,6 +14,7 @@ Rust Type Mapper (RTM) crate rtm-cli.
 """
 categories = [
     "database",
+    "asynchronous",
 ]
 keywords = ["async", "orm", "cqrs", "http", "sql"]
 autoexamples = false
@@ -27,6 +28,7 @@ anyhow = "1.0.57"
 thiserror = "1.0.30"
 
 [dev-dependencies]
+rtm-devtools = { path = "./../rtm-devtools" }
 aquamarine = "0.1.11"
 criterion = { version = "0.3", features = ["html_reports"] }
 futures = "0.3"
@@ -46,4 +48,3 @@ lto = true
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
-

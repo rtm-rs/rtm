@@ -28,6 +28,7 @@ Rust Type Mapper (RTM) crate rtm-rs.
 """
 categories = [
     "database",
+    "asynchronous",
 ]
 keywords = ["async", "orm", "cqrs", "http", "sql"]
 autoexamples = false
@@ -42,6 +43,7 @@ thiserror = "1.0.30"
 bastion = "0.4.5"
 
 [dev-dependencies]
+rtm-devtools = { path = "./../rtm-devtools" }
 aquamarine = "0.1.11"
 criterion = { version = "0.3", features = ["html_reports"] }
 futures = "0.3"
