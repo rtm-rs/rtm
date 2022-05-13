@@ -1,5 +1,7 @@
 pub mod prelude;
 
+mod types;
+
 pub use rtm_attributes as attributes;
 pub use rtm_macros as macros;
 
