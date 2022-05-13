@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-yaml.git
 	branch = main
-	commit = 132db2c337cf42658fdcfd94095413cb2cc22afd
-	parent = fe5b24973421cd83cb3888af99ed1597b553e40a
+	commit = 45b909a99e3831b25c8fda1a72c5e182c5ec4e12
+	parent = b64399dde23dcf55cd3fdb9e854b6fffdc17b39d
 	method = merge
 	cmdver = 0.4.3
