@@ -59,7 +59,7 @@ trybuild = "1"
 [features]
 # Nothing by default
 default = []
-
+ci = []
 [profile.bench]
 opt-level = 3
 lto = true

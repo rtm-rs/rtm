@@ -25,32 +25,27 @@ path = "src/lib.rs"
 proc-macro = true
 
 [dependencies]
-anyhow = "1.0.57"
+proc-macro-error = "1"
 proc-macro2 = "1.0"
 quote = "1"
 # rtm = { package = "rtm-rs", version = "0" }
 syn = { version = "1.0.84", features = ["full", "parsing", "extra-traits", "proc-macro", "visit", "visit-mut"] }
-thiserror = "1.0.30"
 
 [dev-dependencies]
-rtm = { package = "rtm-rs", path = "./../" }
-rtm-devtools = { path = "./../rtm-devtools" }
-macrotest = "1.0.8"
 aquamarine = "0.1.11"
 criterion = { version = "0.3", features = ["html_reports"] }
 futures = "0.3"
 futures-timer = "3"
+macrotest = "1.0.8"
 mockall = "0.11"
+rtm = { package = "rtm-rs", path = "./../" }
+rtm-devtools = { path = "./../rtm-devtools" }
 trybuild = "1"
 
 [features]
 # Nothing by default
 default = []
 ci = []
-
-[profile.bench]
-opt-level = 3
-lto = true
 
 
 [package.metadata.docs.rs]
