@@ -1,3 +1,8 @@
+pub mod prelude;
+
+pub use rtm_attributes as attributes;
+pub use rtm_macros as macros;
+
 #[cfg(test)]
 mod tests {
     #[test]

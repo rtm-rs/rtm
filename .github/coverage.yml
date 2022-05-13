@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@master
+      - name: Cargo Nextest
+        uses: taiki-e/install-action@nextest
 
       - name: Generate code coverage
         run: |
