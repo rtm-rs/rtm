@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-attributes.git
 	branch = main
-	commit = 0afeab6d8d9c39aa6f1ed4e7ca8234f0bface1e4
-	parent = b61c2c3a4dd3dee49e8971634b6a3ccb050b0231
+	commit = b7fada483385eb7aa73a403ac072baf5bc9dbcf8
+	parent = 41e992ffb4440f1ab926d039d2e59ea79fbfddcf
 	method = merge
 	cmdver = 0.4.3
