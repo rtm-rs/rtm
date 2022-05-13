@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-devtools.git
 	branch = main
-	commit = b64e0de74e0869d1f633e0f43ec476192aa7fc73
-	parent = 7cd45a675c81546d6795642af4ce9952072b1812
+	commit = 8943d62a614d831d794bd7cda7e72146defe16ae
+	parent = d6f699eb1a362dca5275c864969a5a3cc88ae45c
 	method = merge
 	cmdver = 0.4.3
