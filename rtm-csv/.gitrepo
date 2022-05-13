@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-csv.git
 	branch = main
-	commit = ea0ec227a45af1e2f9409b3fc3a3fbe327cb8659
-	parent = 3cea4854d1a3c4796c54c087c73ef910d9c6d9fe
+	commit = 27c54902fd83df44158ee7bed58779eb1a7a8a99
+	parent = 8f564e2200b732ced54bd176c92c276025b5f79b
 	method = merge
 	cmdver = 0.4.3
