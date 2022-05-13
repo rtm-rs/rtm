@@ -1,6 +1,5 @@
 [workspace]
-members = [".",
-            "rtm-attributes",
+members = [ "rtm-attributes",
             "rtm-cli",
             "rtm-csv",
             "rtm-devtools",
@@ -13,7 +12,7 @@ members = [".",
             "rtm-yaml", ]
 
 [package]
-name = "rtm"
+name = "rtm-rs"
 version = "0.0.3"
 rust-version = "1.56.0"
 edition = "2021"
@@ -41,14 +40,20 @@ path = "src/lib.rs"
 anyhow = "1.0.57"
 thiserror = "1.0.30"
 bastion = "0.4.5"
+# rtm-attributes = "0"
+# rtm-devtools = "0"
+rtm-attributes = { path = "./rtm-attributes" }
+rtm-macros = { path = "./rtm-macros" }
 
 [dev-dependencies]
-rtm-devtools = { path = "./../rtm-devtools" }
 aquamarine = "0.1.11"
 criterion = { version = "0.3", features = ["html_reports"] }
 futures = "0.3"
 futures-timer = "3"
 mockall = "0.11"
+rtm-devtools = { path = "./rtm-devtools" }
+rtm-examples = { path = "./rtm-examples" }
+rtm-tests = { path = "./rtm-tests" }
 trybuild = "1"
 
 [features]
