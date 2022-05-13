@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/rtm-nats.git
 	branch = main
-	commit = 018c545b9170b472174d07a0c1347896e1d65238
-	parent = fea33fc707d78e3dea5453465294b65b0bf6345b
+	commit = fe503c9c19c4438eb768d7f1f778aa97d3e29caf
+	parent = 0192d33edbd1cab618fa90dea792f14b457b9e27
 	method = merge
 	cmdver = 0.4.3
