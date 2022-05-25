@@ -39,6 +39,12 @@ indicate only Pulsar and NATS provide *"exactly-once"* delivery.
 
 ## Visitor over Observer pattern
 
+- [Discussion](https://github.com/rust-unofficial/patterns/discussions/236)
+- [Pattern](https://rust-unofficial.github.io/patterns/patterns/behavioural/visitor.html)
+- [Tutorial](https://riptutorial.com/rust/example/24146/visitor-pattern)
+- [SO example](https://stackoverflow.com/a/53912993/152860)
+- [Yandros example](https://users.rust-lang.org/t/implement-the-visitor-pattern/51166/6?u=taqtiqa-mark)
+
 ## Workflow gateways
 
 - +[Cadence (Go, Uber)](https://cadenceworkflow.io/)
