@@ -10,6 +10,7 @@ members = [ "rtm-attributes",
             "rtm-sql",
             "rtm-tests",
             "rtm-yaml", ]
+exclude = ["rtm-examples/crates/cqrs04"]
 
 [package]
 name = "rtm-rs"
