@@ -20,7 +20,7 @@ Data mapping and persistence toolkit for Rust - [Rust Type Mapper (RTM)](https:/
 ## Developer
 
 ```bash
-for r in rtm-attributes rtm-cli rtm-csv rtm-devtools rtm-examples rtm-json rtm-macros rtm-schema rtm-sql rtm-tests rtm-yam
+for r in rtm-attributes rtm-cli rtm-csv rtm-devtools rtm-examples rtm-json rtm-macros rtm-schema rtm-sql template rtm-tests rtm-yam
 do
   # per-repository ${r} tasks
 done
