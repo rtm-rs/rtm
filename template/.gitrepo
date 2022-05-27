@@ -4,7 +4,7 @@
 ; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
 ;
 [subrepo]
-	remote = git@github.com:bbros-dev/template.git
+	remote = git@github.com:rtm-rs/template.git
 	branch = main
 	commit = 2d3c5a1db833dccc91c81a3d221f09d079d84446
 	parent = 41e3863c057f03bce51c4ce3ee19b42eeda1b380
