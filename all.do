@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Exit as soon as there is an error.
 set -e
 
 SELF=$(basename "${0##*/}" .do)
