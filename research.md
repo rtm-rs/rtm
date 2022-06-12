@@ -2,6 +2,14 @@
 
 Ideas and approaches to think about and explore.
 
+## Template
+
+Simple & flexible:
+
+- [Git clone particular files](https://stackoverflow.com/a/52269934/152860)
+- [Gather user input for config file (see next item)](https://crates.io/crates/enquirer)
+- [Shell (bash) templating](https://stackoverflow.com/a/48633756/152860)
+
 ## Newtype
 
 - [Newtype template](https://gist.github.com/nyinyithann/84aa6f013c18be8e87440f96f3e6f868)
