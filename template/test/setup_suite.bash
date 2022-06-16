@@ -10,5 +10,6 @@ setup_suite() {
 
 teardown_suite() {
     rm -rf "${RTM_TEMPLATE_DATA}"
+    
     echo teardown_suite
 }

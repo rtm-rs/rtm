@@ -5,10 +5,17 @@ setup() {
 
 @test "RTM help" {
   run rtm-generate --help
-  [ $status -eq 0 ]
-  [ "${lines[0]}" = "Usage:" ]
-  [ "${lines[1]}" = "     -h|--help          Display this help" ]
-  [ "${lines[2]}" = "     -m|--monochrome    Disable colour output" ]
-  [ "${lines[3]}" = "     -q|--quiet         Run silently unless an error occurs" ]
-  [ "${lines[4]}" = "     -v|--verbose       Display verbose output" ]
+
+  assert_success
+
+  assert_output --partial "Usage:"
+  assert_output --partial "    rt-generate [OPTIONS] <SUBCOMMAND>"
+  assert_output --partial "OPTIONS:"
+  assert_output --partial "    -h|--help          Display this help"
+  assert_output --partial "    -m|--monochrome    Disable colour output"
+  assert_output --partial "    -q|--quiet         Run silently unless an error occurs"
+  assert_output --partial "    -v|--verbose       Display verbose output"
+  assert_output --partial "SUBCOMMAND:"
+  assert_output --partial "    base      New project using the base template"
+  assert_output --partial "    domain    New feature/domain within a project"
 }

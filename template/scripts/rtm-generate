@@ -796,7 +796,7 @@ function generate_base_files(){
 # ARGS: None
 # OUTS: None
 function script_usage() {
-    cat << EOF
+    head -c -1 << EOF
 Usage:
     rt-generate [OPTIONS] <SUBCOMMAND>
 
@@ -822,7 +822,13 @@ function generate_base() {
     fi
     verbose_print "Using (RTM_TEMPLATE_DATA): ${RTM_TEMPLATE_DATA}"
     verbose_print "Using (RTM_TEMPLATE_URL): ${RTM_TEMPLATE_URL}"
-    git clone --depth 1 -b main "${RTM_TEMPLATE_URL}" "${RTM_TEMPLATE_DATA}"
+    if [[ -d "${RTM_TEMPLATE_DATA}" ]]
+    then
+        verbose_print "Using existing clone in ${RTM_TEMPLATE_DATA}."
+    else
+        verbose_print "Cloning ${RTM_TEMPLATE_URL} in ${RTM_TEMPLATE_DATA}."
+        git clone --depth 1 -b main "${RTM_TEMPLATE_URL}" "${RTM_TEMPLATE_DATA}"
+    fi
     gather_input_base
     generate_base_files
 }
