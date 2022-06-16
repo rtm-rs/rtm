@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:rtm-rs/template.git
 	branch = main
-	commit = 352af6abe6a6ff1f665f203c720cc83a5c1f0b85
-	parent = 7d15f5c5acd0fad311ddf5f2dd8eefd340c5acc0
+	commit = ed1b3a257025b13c4421072e6aa00fb30cd3dbf5
+	parent = 7c212afac18e9b125264dffdbc45a6fb4d2b2ca1
 	method = merge
 	cmdver = 0.4.3
