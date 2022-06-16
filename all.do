@@ -8,8 +8,8 @@ find . -maxdepth 2 -type f -name '*.do' -print0 | \
     sed -e 's/\.do//g' -e "s/\.\/$SELF//g" | \
     xargs redo-ifchange
 
-# Find conflicts between here and our remote.
-# Do the merge in memory - don't touch the index, nor the working tree.
+# Find conflicts between here and the remote.
+# Do the merge without touching the index, nor the working tree.
 git fetch origin main
 if git merge-tree "$(git merge-base FETCH_HEAD main)" main FETCH_HEAD | grep -e '<<<<<<<' -e '>>>>>>>'
 then
