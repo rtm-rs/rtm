@@ -14,6 +14,12 @@ This example application should be useful for people interested in:
 
 ### Usage
 
+Build then run the service:
+
+```bash
+cargo build
+```
+
 We'll use [gRPCui](https://github.com/fullstorydev/grpcui) to interact with the
 service:
 

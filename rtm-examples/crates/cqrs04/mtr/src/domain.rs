@@ -5,6 +5,8 @@ use std::{
     collections::HashMap,
 };
 
+use mtr_account::BankAccount;
+
 pub type BankAccountRepository<S> =
     aggregate::EventSourcedRepository<BankAccount, BankAccountRoot, S>;
 
@@ -90,13 +92,14 @@ pub enum BankAccountError {
     AlreadyClosed,
 }
 
-#[derive(Debug, Clone)]
-pub struct BankAccount {
-    id: BankAccountId,
-    current_balance: Decimal,
-    pending_transactions: HashMap<TransactionId, Transaction>,
-    is_closed: bool,
-}
+// refactored to mtr_account::BankAccount
+// #[derive(Debug, Clone)]
+// pub struct BankAccount {
+//     id: BankAccountId,
+//     current_balance: Decimal,
+//     pending_transactions: HashMap<TransactionId, Transaction>,
+//     is_closed: bool,
+// }
 
 impl aggregate::Aggregate for BankAccount {
     type Id = BankAccountId;

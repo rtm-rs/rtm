@@ -1,0 +1,16 @@
+[package]
+name = "mtr-account"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "mtr_account"
+path = "src/lib.rs"
+
+[dependencies]
+mtr_entities = { path = "../mtr-entities", package = "mtr-entities" }
+eventually = { git = "https://github.com/get-eventually/eventually-rs" }
+# Non-templated:
+rust_decimal = "1.18.0"
